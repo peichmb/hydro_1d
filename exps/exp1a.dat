@@ -1,0 +1,22 @@
+512        nint          number of intervals
+-12., -8.3  z0, zf        extremes of physical domain
+
+300000000        itmax         maximum number of iterations
+3200.       timefinal     maximum physical time
+5 10000   plottimeinterv, plotstinterv - cadence for output
+
+0   Draw pres?           1=True // 0=False
+1   Draw rho?          1=True // 0=False
+0   Draw vz?             1=True // 0=False
+0   Draw moving dot?    1=True // 0=False
+1   Draw moving wave?   1=True // 0=False
+
+sound wave               inittype   init. cond: type (25 spaces)
+sine                     shape      init. cond: other param (25 spaces)
+1.5e-4       amp    amplitude parameter
+1e0        p00   equilibrium pressure
+1e0        rho00   equilibrium density
+0.        vz00      overall velocity 
+1.666666667  gam    adiabatic index
+
+0.95        fcfl   parameter for the Courant condition
